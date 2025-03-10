@@ -1,5 +1,6 @@
 import Black from "../Black/Black";
 import CardSection from "../CardSection/CardSection";
+import FullService from "../FullService/FullService";
 import Service from "../Service/Service";
 import Support from "../Support/Support";
 
@@ -14,6 +15,7 @@ const Home = () => {
            <Support></Support>
            <CardSection></CardSection>
            <Black></Black>
+           <FullService></FullService>
         </div>
     );
 };

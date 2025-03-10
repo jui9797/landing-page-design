@@ -37,7 +37,7 @@ const Black = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full lg:w-1/2 h-[200px] lg:h-[500px]'>
+            <div className='w-full lg:w-1/2 h-[250px] lg:h-[500px]'>
                 <img className='w-full h-full' src={woman} alt="" />
             </div>
         </div>
