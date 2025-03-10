@@ -10,7 +10,7 @@ const Nav = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm border-none">
+            <div className="navbar bg-base-100 lg:px-6 lg:mb-4">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +30,7 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Report a quote</a>
+                    <a className="btn bg-transparent">Report a quote</a>
                 </div>
             </div>
         </div>
