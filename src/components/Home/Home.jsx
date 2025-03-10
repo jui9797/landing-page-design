@@ -2,6 +2,8 @@ import About from "../About/About";
 import Black from "../Black/Black";
 import CardSection from "../CardSection/CardSection";
 import Faq from "../Faq/Faq";
+
+import Free from "../Free/Free";
 import FullService from "../FullService/FullService";
 import Grid1 from "../Grid/Grid1";
 import Grid2 from "../Grid/Grid2";
@@ -24,6 +26,8 @@ const Home = () => {
            <Grid1></Grid1>
            <Grid2></Grid2>
            <Faq></Faq>
+           <Free></Free>
+           
         </div>
     );
 };
